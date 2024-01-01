@@ -31,3 +31,8 @@ references:
  - https://docs.micropython.org/en/latest/esp32/quickref.html
  - s/w debounce: https://kaspars.net/blog/micropython-button-debounce
  - driver simplified: SCwrkhY7NIk
+
+ C:\Users\manis\Downloads\seed_sower
+.venv\Scripts\activate
+python -m pip install -U pip thonny adafruit-ampy rshell
+rshell -p COM5 repl
