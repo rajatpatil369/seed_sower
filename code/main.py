@@ -20,7 +20,7 @@ MPS_TO_KMPH = const(3.6)  # ((1000m / (69sec*60min)) ** -1
 HALL_DEBOUNCE_PERIOD = const(49)  # vehicle speed should be strictly less than: ?? (bottleneck?)
 SW_DEBOUNCE_PERIOD = const(225)
 DELAY = const(200)
-RPM = const(5.4)
+RPM = const(11.28)
 
 timer = Timer(0)
 speed = 0
@@ -109,7 +109,7 @@ while True:
         i += 1
     else:  # >
         i -= 1
-    if i * DELAY >= 5000:
+    if i * DELAY >= 1000:
         speed *= 0.8
         i = 0
     prev_speed = speed
