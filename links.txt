@@ -1,0 +1,33 @@
+robodo m42 12V DC geared motor 500RPM high torque
+https://robodo.in/products/copy-of-12v-dc-square-gear-geared-motor-240-rpm-high-torque
+Specifications:
+Rated Voltage - 12v
+RPM - 500 (at 12v)
+Nominal Voltage - 12v
+No- Load Current - 350 mA
+Load Current - 1.3 A
+Stall Current - 6A
+Full (Stall) Load Torque - 15 kgcm
+Weight - 500g Approx
+
+
+robodo double bts 7960 23A H-Bridge high power stepper motor driver
+https://robodo.in/products/robodo-double-bts7960-43a-h-bridge-high-power-stepper-motor-driver-module
+Specifications:
+Input voltage(V): 6 - 27
+Maximum current(A): 43
+Input level(V): 3.3 - 5
+Duty cycle: 0 - 100%
+Path resistance- 16mΩ at 25°C
+Low quiescent current- 7mA at 25°C
+Operating Frequency(KHz): 25
+Dimensions (mm): 50 x 50 x 43
+Weight (gm): 67
+
+
+references:
+ - "safe pins": https://youtu.be/LY-1DHTxRAk?t=353
+ - pinout: https://lastminuteengineers.com/esp32-pinout-reference/
+ - https://docs.micropython.org/en/latest/esp32/quickref.html
+ - s/w debounce: https://kaspars.net/blog/micropython-button-debounce
+ - driver simplified: SCwrkhY7NIk
